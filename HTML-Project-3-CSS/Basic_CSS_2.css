@@ -5,4 +5,21 @@ h2 	{
 		font-weight: normal;
 		text-decoration: underlined;
 		text-align: center;
-	}
+}
+
+h1	{
+	color: #FFDAB9;
+	background: white;
+	size: 8;
+	font-weight: bold;
+	text-shadow: 2px 2px #DC143C;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}

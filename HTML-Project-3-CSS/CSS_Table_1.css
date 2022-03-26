@@ -1,0 +1,20 @@
+table {
+	border: 1.5px solid black
+	}
+
+td:hover {
+	background-color: LightGoldenRodYellow;
+	color: black;
+	}
+
+tr, th {
+	background-color: MistyRose;
+	color: blue;
+	text-align: center;
+	}
+
+tr,td {
+	background-color: White;
+	color: black;
+	text-align: center;
+	}
