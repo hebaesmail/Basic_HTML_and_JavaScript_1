@@ -17,6 +17,17 @@ h1	{
 	text-decoration: underline;
 }
 
+h3	{
+	color: #A0522D;
+	background: white;
+	size: 8;
+	font-weight: bold;
+	text-shadow: 2px 2px #C0C0C0;
+	text-align: center;
+	text-decoration: italic;
+	text-decoration: underline;
+}
+
 .center {
 	display: block;
 	margin-left: auto;
