@@ -1,0 +1,212 @@
+html {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 63%;
+    -webkit-tap-highlight-color: black;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+
+}
+
+body {
+    font-size: 15px;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.532;
+    color: #333;
+    background-color: lightcyan;
+}
+
+footer, nav {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    line-height: 60px;
+    font-weight: 800;
+    font-size: 55px;
+    font-variant: small-caps;
+    text-align: center;
+    color: midnightblue;
+    text-shadow: 2px 2px 3px rgb(159, 240, 240);
+}
+
+h1::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 250px;
+    background: midnightblue;
+    margin: 3px auto 25px;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    line-height: 45px; 
+    color: midnightblue;
+}
+
+h3 {
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+
+h4 {
+    padding-top: 25px;
+    line-height: 35px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    font-weight: 650;
+}
+
+p{
+    font-weight: 280;
+    line-height: 25px;
+    padding-bottom: 12px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading-padding {
+    padding-bottom: 40px;
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.navbar {
+    height: 100px;
+    max-height: 320px;
+    display: block;
+}
+
+
+
+.head-main, .text-container, .rsvp-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.clearfix:after,
+.container:after,
+.navbar:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.menu-container {
+    max-height: 320px;
+    margin: 0% auto;
+    content: "";
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+#home {
+    background: url(../Images/background.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 300px;
+    padding-bottom: 500px;
+    color: midnightblue;
+}
+
+.head-main {
+    font-size: 65px;
+    color: cornflowerblue;
+    outline: midnightblue;
+    text-align: center;
+    text-shadow: 2px 1px gray;
+    text-decoration: underline;
+}
+
+.head-main p {
+    font-size: 17px;
+    color: rgb(2, 5, 54);
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+
+.rsvp-form {
+    font-size: 12px;
+    outline: none;
+    font-weight: 250;
+    color: darkslategray;
+    padding: 12px 12px;
+    width: 50%;
+    border: 1px solid darkslategray;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: lightgray;
+    box-shadow: 2ps 2ps 0 0 rgb(25, 26, 25);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.rsvp-form p {
+    font-size: medium;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.rsvp-form input[class="rsvp"] {
+    font-size: 12px;
+    outline: none;
+    font-weight: 250;
+    padding: 2% 1% 2% 4%;
+    width: 65%;
+    border: 2px solid darkslategray;
+    color: rgb(43, 37, 37);
+    border-radius: 4px;
+    margin: 7px 1.5em;
+    background: lightsteelblue;
+    box-shadow: inset 0px 1px 0px 0px gray;
+}
+

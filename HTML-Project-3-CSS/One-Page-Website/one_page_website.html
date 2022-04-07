@@ -2,17 +2,18 @@
 <html lang="en">
 	<head>
 		<!--FIGURE OUT A TITLE-->
-		<title>TITLE</title>
+		<title>Online FLower Shop</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./CSS/one_page_CSS.css">
 	</head>
 	<!--TOPIC: -->
 	<body>
 		<!--NAVIGATION-->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
-					<a href="#photos" id="link"><li>PHOTOS</li></a>
+					<a href="#gallery" id="link"><li>GALLERY</li></a>
 					<a href="#videos" id="link"><li>VIDEOS</li></a>
 					<a href="#contact" id="link"><li>CONTACT US</li></a>
 				</ul>
@@ -22,25 +23,28 @@
 		
 		<!--HOME-->
 		<div id="home">
-			<div>
-				<div>
-					<span>Main Heading - Site name?</span>
+			<div class="container">
+				<div class="head-main">
+					<span>Flowers R Us</span>
+						<div>
+							<p>Your one stop shop for all your floral needs!</p>
+						</div>
 				</div>
 			</div>
 		</div>
 		<!--END HOME-->
 		
 		<!--PHOTOS-->
-		<section>
-			<div id="photos">
-				<h1>Photos</h1>
+		<section id="gallery">
+			<div class="container">
+				<h1>GALLERY</h1>
 				<!--HOW MANY ARE WE ADDING?-->
-				<div>
+				<div class="flex-container">
 				
 					<!--Photo Container 1-->
-					<div>
-						<div>
-							<img src="Pretty-Flower1.jpg">
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/Pretty-Flower1.jpg">
 								<div>
 									<h4>Photo 1 Heading</h4>
 									<p>Description</p>
@@ -54,39 +58,38 @@
 		<!--END OF PHOTOS-->
 		
 		<!--VIDEOS-->
-		<section>
-			<div id="videos">
+		<section id="videos">
+			<div>
 				<h1>Videos</h1>
-				<div>
+				<div cleaa="video-container">
 					<!-- VIDEO CONTAINER 1-->
-					<div>
+					<div class="video-frame">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/i810CxN5Q6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							<div>
 								<h3>TITLE OF VIDEO 1</h3>
-								<p>Description</p>
+								<p class="text-container">Description</p>
 							</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!--CONTACT US-->
-		<section>
-			<div id="contact">
-				<div>
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
 					<h1>Contact Us</h1>
-					<div>
+					<div class="reservation">
 						<h2><span>TAG LINE!</span>
 						<br />Get more information today!
 						</h2>
-						<p>
-							Please provide us with your basic contact information below:
-						</p>
-						<div>
+						
+						<div class="rsvp-form">
+								<p>Please provide us with your basic contact information below:</p>
 							<form action="" method="post">
-								<input class="rsvp" type="text" value="First Name">
-								<input class="rsvp" type="text" value="Last Name">
-								<input class="revp" type="text" value="Email Address">
-								<input class="revp" type="text" value="Phone Number">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Email Address">
+								<input class="rsvp" type="text" value="" placeholder="Phone Number">
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
