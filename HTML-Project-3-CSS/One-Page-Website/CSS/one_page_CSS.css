@@ -88,8 +88,6 @@ p{
     display: block;
 }
 
-
-
 .head-main, .text-container, .rsvp-text {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: medium;
@@ -133,9 +131,11 @@ p{
 }
 
 .menu-container {
-    max-height: 320px;
+    max-height: 360px;
     margin: 0% auto;
     content: "";
+    /* top:0; left:0; */
+    /* position:absolute; */
     width: 100%;
     position: fixed;
     z-index: 100;
