@@ -377,8 +377,30 @@ footer {
     background-color: white; 
 }
 
+.form {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8d8e8f;
+    padding: 0px 0px;
+    width: auto;
+    border: 1px solid #808080;
+    margin: 2% auto;
+    background: rgb(227,222,222);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Raleway', sans-serif;
+}
 /* Input fields */
 .form-container input[type=text] {
+    width: 100%; /* The input boxes completely fill the width of the form-container */
+    padding: .93vw; /* Adds padding to the input boxes */
+    margin: .6vw 0 .6vw 0; /* Adds space between the input boxes and the labels */
+    border: none; /* Removes the border from the input boxes */
+    background: Gainsboro; /* Sets the background color of the input boxes */
+    font-size: 1vw; /* Relative font sizing based on the width of the viewport */
+}
+
+.form-container input[type=email] {
     width: 100%; /* The input boxes completely fill the width of the form-container */
     padding: .93vw; /* Adds padding to the input boxes */
     margin: .6vw 0 .6vw 0; /* Adds space between the input boxes and the labels */
