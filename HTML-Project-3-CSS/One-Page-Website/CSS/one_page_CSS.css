@@ -254,6 +254,7 @@ p{
 /* Hide the slides by default */
 .mySlides {
     display: none;
+    height: 650px;
 }
 
 /* Next & previous buttons */
